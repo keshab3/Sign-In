@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    display: flex;
+}
+.left{
+    width: 30%;
+    display: none;
+}
+.right{
+    margin: 30px 40px;
+}
+.right h1{
+    text-align: center;
+}
+
+.input-field{
+    padding: 3px;
+}
+input{
+    width: 100%;
+    padding: 10px 5px;
+}
+button{
+    display: block;
+    padding: 10px 40px ;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(41, 41, 247);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 20px 30%;
+}
+.text p{
+    text-align: center;
+}
+.text .socialMedia{
+    text-align: center;
+}
+
+.socialMedia i{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 15px ;
+    border-radius: 50%;
+}
